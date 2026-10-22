@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="id" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday, Tiara ♡</title>
+  <meta name="description" content="A little something for Tiara.">
+  <!-- Halaman pribadi: minta mesin pencari tidak mengindeks. Hapus baris ini jika tidak perlu. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#43343A">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 28S3 20 3 11.5A6.5 6.5 0 0 1 16 8a6.5 6.5 0 0 1 13 3.5C29 20 16 28 16 28z' fill='%23D9879C'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts (opsional). Jika gagal dimuat, font cadangan di style.css tetap dipakai. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Jost:wght@300;400;500&display=swap">
+
+  <link rel="preload" as="image" href="assets/images/hero-mobile.jpg" media="(orientation: portrait)" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/hero.jpg" media="(orientation: landscape)" fetchpriority="high">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    /* Dijalankan sebelum halaman tampil supaya tidak ada "kedipan" konten. */
+    document.documentElement.classList.replace('no-js', 'js');
+    try {
+      if (sessionStorage.getItem('tiara-birthday:opened') === '1') {
+        document.documentElement.classList.add('is-open');
+      }
+    } catch (e) { /* sessionStorage tidak tersedia: tidak apa-apa */ }
+  </script>
+</head>
+<body>
+  <!-- Ikon SVG yang dipakai ulang di seluruh halaman -->
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12.1 20.3c-.2-.1-8.6-5-8.6-11a4.6 4.6 0 0 1 8.5-2.5 4.6 4.6 0 0 1 8.5 2.5c0 6-8.3 10.9-8.4 11z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-heart-fill" viewBox="0 0 24 24"><path d="M12.1 20.3c-.2-.1-8.6-5-8.6-11a4.6 4.6 0 0 1 8.5-2.5 4.6 4.6 0 0 1 8.5 2.5c0 6-8.3 10.9-8.4 11z" fill="currentColor"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6M18 6.5a7.8 7.8 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-mute" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <!-- Hati gaya coretan tangan -->
+    <symbol id="i-heart-hand" viewBox="0 0 40 36"><path d="M20.5 33C14 28.5 3.5 21 3 12.2 2.7 6.5 7 2.8 11.6 3.3c3.8.4 6.6 3.2 8.6 7.1 1.7-4.6 5-7.6 9.2-7.4 4.6.3 8.1 4.4 7.4 9.7-1 8-9.7 14.3-15.9 20.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-squiggle" viewBox="0 0 300 16"><path d="M2 10c30-6 52 4 80-2s50-6 74-1 48 6 72 0 42-6 70-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+
+  <!-- ============ NAVIGASI ============ -->
+  <header class="site-nav" id="siteNav">
+    <a class="site-nav__logo hand" href="#top">Happy Birthday, <span data-config="name">Tiara</span>&nbsp;♡</a>
+
+    <nav class="site-nav__nav" aria-label="Navigasi utama">
+      <button class="site-nav__toggle icon-btn" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+        <svg aria-hidden="true"><use href="#i-menu"/></svg>
+        <span class="sr-only">Buka menu</span>
+      </button>
+      <ul class="site-nav__menu" id="navMenu">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#letter">Untukmu</a></li>
+        <li><a href="#memories">Memories</a></li>
+        <li><a href="#song">Our Song</a></li>
+        <li><a href="#surprise">Surprise</a></li>
+      </ul>
+    </nav>
+
+    <button class="music-toggle icon-btn" id="musicToggle" type="button" aria-pressed="false">
+      <span class="music-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      <svg class="music-toggle__icon" aria-hidden="true"><use href="#i-heart"/></svg>
+      <span class="sr-only" id="musicToggleLabel">Putar lagu</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- ============ A. HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="heroTitle">
+      <div class="hero__media">
+        <!-- GANTI FOTO: hero.jpg = layar lebar (landscape), hero-mobile.jpg = HP (portrait). -->
+        <picture>
+          <source media="(orientation: portrait)" srcset="assets/images/hero-mobile.jpg" width="899" height="2272">
+          <img class="hero__img" src="assets/images/hero.jpg" alt="Foto Tiara untuk hari ulang tahunnya"
+               width="2400" height="973" fetchpriority="high" decoding="async">
+        </picture>
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="hero__hearts" aria-hidden="true">
+        <svg><use href="#i-heart-hand"/></svg>
+        <svg><use href="#i-heart-hand"/></svg>
+        <svg><use href="#i-heart-hand"/></svg>
+        <svg><use href="#i-heart-hand"/></svg>
+        <svg><use href="#i-heart-hand"/></svg>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__kicker hand">A little something for you...</p>
+        <h1 class="hero__title hand" id="heroTitle">
+          <span class="hero__line">Happy Birthday,</span>
+          <span class="hero__line hero__line--name"><span data-config="name">Tiara</span>&nbsp;♡</span>
+        </h1>
+        <p class="hero__subtitle" data-config="heroSubtitle">Hari ini adalah tentang kamu, tentang semua hal indah yang kamu bawa ke hidupku.</p>
+        <button class="btn btn--light" id="openLetterBtn" type="button">Open My Letter ♡</button>
+      </div>
+
+      <p class="hero__note hand" aria-hidden="true">You make<br>life better
+        <svg class="hero__note-heart"><use href="#i-heart-hand"/></svg>
+      </p>
+
+      <a class="scroll-hint" href="#letter" id="scrollHint">
+        <span class="scroll-hint__line" aria-hidden="true"></span>
+        <span class="scroll-hint__text">scroll</span>
+      </a>
+    </section>
+
+    <!-- Semua bagian di bawah ini muncul setelah tombol "Open My Letter" ditekan -->
+    <div class="experience" id="experience">
+
+      <!-- ============ B. SURAT ============ -->
+      <section class="letter section" id="letter" aria-labelledby="letterTitle">
+        <div class="container letter__grid">
+          <article class="letter__paper reveal">
+            <span class="tape tape--letter" aria-hidden="true"></span>
+            <p class="eyebrow">Sebuah surat kecil</p>
+            <h2 class="section-title hand" id="letterTitle">Untuk Kamu, <span data-config="name">Tiara</span>&nbsp;♡</h2>
+            <svg class="squiggle" aria-hidden="true"><use href="#i-squiggle"/></svg>
+
+            <!-- Isi surat diambil dari CONFIG.letter di script.js -->
+            <div class="letter__body" id="letterBody"></div>
+            <noscript><p>Aktifkan JavaScript untuk membaca surat ini ♡</p></noscript>
+
+            <p class="letter__sign">
+              <span class="letter__closing" id="letterClosing"></span>
+              <span class="letter__signature hand" id="letterSignature"></span>
+            </p>
+          </article>
+
+          <div class="letter__aside">
+            <p class="hand-note hand-note--lucky hand" aria-hidden="true">I'm so lucky<br>to have you ♡</p>
+            <!-- Polaroid diambil dari CONFIG.letterPhotos di script.js -->
+            <div class="letter__photos" id="letterPhotos"></div>
+            <p class="hand-note hand-note--thanks hand" aria-hidden="true">Thank you<br>for being you ♡</p>
+          </div>
+        </div>
+
+        <svg class="sketch-flower" viewBox="0 0 80 160" aria-hidden="true">
+          <path d="M40 158C38 120 42 90 40 60M40 112c-10-8-22-9-30-4 9 7 20 9 30 4zM40 92c9-9 21-12 30-8-8 8-20 11-30 8z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M40 60c-10-2-16-12-15-26 6 4 10 8 12 12 0-8 2-15 5-20 3 5 4 12 3 20 3-5 7-9 13-12 1 14-6 24-18 26z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+      </section>
+
+      <!-- ============ C. KENANGAN ============ -->
+      <section class="memories section" id="memories" aria-labelledby="memoriesTitle">
+        <div class="container">
+          <header class="memories__head reveal">
+            <p class="eyebrow eyebrow--light">Our memories</p>
+            <h2 class="section-title hand" id="memoriesTitle">Little Moments, Big Memories&nbsp;♡</h2>
+            <p class="section-sub">Dari hal-hal sederhana sampai momen yang ingin selalu aku ingat.</p>
+          </header>
+
+          <p class="hand-note hand-note--story hand" aria-hidden="true">Same story,<br>different chapter,<br>still us ♡</p>
+
+          <div class="slideshow reveal" id="slideshow" role="region" aria-roledescription="carousel" aria-label="Galeri foto kenangan">
+            <div class="slideshow__stage">
+              <button class="slideshow__arrow slideshow__arrow--prev icon-btn" id="slidePrev" type="button" aria-label="Foto sebelumnya">
+                <svg aria-hidden="true"><use href="#i-prev"/></svg>
+              </button>
+
+              <figure class="slideshow__frame">
+                <button class="slideshow__open" id="slideOpen" type="button" aria-label="Perbesar foto">
+                  <span class="slideshow__backdrop" id="slideBackdrop" aria-hidden="true"></span>
+                  <img class="slideshow__img" id="slideImg" alt="" decoding="async">
+                  <span class="photo-missing" id="slideMissing" hidden>
+                    <svg aria-hidden="true"><use href="#i-heart-hand"/></svg>
+                    <span>Foto belum ditambahkan</span>
+                    <code id="slideMissingName"></code>
+                  </span>
+                  <span class="slideshow__zoom" aria-hidden="true"><svg><use href="#i-expand"/></svg></span>
+                </button>
+                <figcaption class="slideshow__caption">
+                  <span class="slideshow__text" id="slideCaption"></span>
+                  <span class="slideshow__date" id="slideDate"></span>
+                </figcaption>
+              </figure>
+
+              <button class="slideshow__arrow slideshow__arrow--next icon-btn" id="slideNext" type="button" aria-label="Foto berikutnya">
+                <svg aria-hidden="true"><use href="#i-next"/></svg>
+              </button>
+            </div>
+
+            <div class="slideshow__bar">
+              <p class="slideshow__counter" id="slideCounter" aria-live="polite" aria-atomic="true">01 / 01</p>
+              <button class="slideshow__auto" id="slideAuto" type="button" hidden>
+                <svg aria-hidden="true"><use href="#i-pause"/></svg>
+                <span id="slideAutoLabel">Jeda slideshow</span>
+              </button>
+            </div>
+
+            <ul class="slideshow__thumbs" id="slideThumbs" aria-label="Pilih foto"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ D. LAGU ============ -->
+      <section class="song section" id="song" aria-labelledby="songTitle">
+        <div class="container song__grid">
+          <header class="song__head reveal">
+            <p class="eyebrow">Our song</p>
+            <h2 class="section-title hand" id="songTitle">A Song That Reminds Me of You&nbsp;♡</h2>
+            <p class="section-sub">Some songs hold memories that words cannot explain.</p>
+            <p class="hand-note hand-note--music hand" aria-hidden="true">play it loud,<br>think of us ♡</p>
+          </header>
+
+          <div class="player reveal" id="player">
+            <figure class="player__cover polaroid">
+              <span class="tape tape--cover" aria-hidden="true"></span>
+              <img id="playerCover" alt="" width="800" height="800" loading="lazy" decoding="async">
+              <span class="photo-missing photo-missing--small" id="playerCoverMissing" hidden>
+                <svg aria-hidden="true"><use href="#i-heart-hand"/></svg>
+              </span>
+            </figure>
+
+            <div class="player__body">
+              <p class="player__label" id="playerLabel">Lagu untukmu</p>
+              <h3 class="player__title" id="playerTitle"></h3>
+              <p class="player__artist" id="playerArtist"></p>
+
+              <div class="player__progress">
+                <input class="range" id="playerSeek" type="range" min="0" max="1000" step="1" value="0"
+                       aria-label="Posisi lagu" aria-valuetext="0:00 dari 0:00" disabled>
+                <div class="player__times">
+                  <span id="playerCurrent">0:00</span>
+                  <span id="playerDuration">--:--</span>
+                </div>
+              </div>
+
+              <div class="player__controls">
+                <button class="player__play" id="playerPlay" type="button" aria-label="Putar lagu">
+                  <svg class="player__icon-play" aria-hidden="true"><use href="#i-play"/></svg>
+                  <svg class="player__icon-pause" aria-hidden="true"><use href="#i-pause"/></svg>
+                  <span class="player__spinner" aria-hidden="true"></span>
+                </button>
+
+                <div class="player__volume" id="playerVolumeWrap">
+                  <button class="icon-btn icon-btn--soft" id="playerMute" type="button" aria-label="Bisukan" aria-pressed="false">
+                    <svg class="player__icon-vol" aria-hidden="true"><use href="#i-volume"/></svg>
+                    <svg class="player__icon-mute" aria-hidden="true"><use href="#i-mute"/></svg>
+                  </button>
+                  <input class="range range--small" id="playerVolume" type="range" min="0" max="100" step="1" value="80" aria-label="Volume">
+                </div>
+              </div>
+
+              <p class="player__status" id="playerStatus" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ E. KEJUTAN ============ -->
+      <section class="surprise section" id="surprise" aria-labelledby="surpriseTitle">
+        <div class="container surprise__inner">
+          <header class="reveal">
+            <p class="eyebrow">Satu lagi</p>
+            <h2 class="section-title hand" id="surpriseTitle">And One More Thing...&nbsp;♡</h2>
+            <p class="section-sub">Aku simpan satu pesan terakhir, khusus buat kamu.</p>
+          </header>
+
+          <button class="btn btn--primary reveal" id="surpriseBtn" type="button" aria-expanded="false" aria-controls="surpriseCard">
+            Click for a Surprise
+          </button>
+
+          <div class="surprise__card" id="surpriseCard" hidden>
+            <div class="surprise__hearts" id="surpriseHearts" aria-hidden="true"></div>
+            <span class="tape tape--note" aria-hidden="true"></span>
+            <!-- Pesan diambil dari CONFIG.surprise di script.js -->
+            <div class="surprise__message" id="surpriseMessage" tabindex="-1"></div>
+            <p class="surprise__closing hand" id="surpriseClosing"></p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <svg class="footer__heart" aria-hidden="true"><use href="#i-heart-hand"/></svg>
+        <p>Made with love, just for you.</p>
+      </footer>
+    </div>
+  </main>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <dialog class="lightbox" id="lightbox" aria-label="Foto diperbesar">
+    <div class="lightbox__inner">
+      <button class="lightbox__close icon-btn" id="lightboxClose" type="button" aria-label="Tutup foto">
+        <svg aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+      <button class="lightbox__arrow lightbox__arrow--prev icon-btn" id="lightboxPrev" type="button" aria-label="Foto sebelumnya">
+        <svg aria-hidden="true"><use href="#i-prev"/></svg>
+      </button>
+      <figure class="lightbox__figure">
+        <img class="lightbox__img" id="lightboxImg" alt="">
+        <span class="photo-missing" id="lightboxMissing" hidden>
+          <svg aria-hidden="true"><use href="#i-heart-hand"/></svg>
+          <span>Foto belum ditambahkan</span>
+        </span>
+        <figcaption class="lightbox__caption">
+          <span id="lightboxCaption"></span>
+          <span class="lightbox__meta" id="lightboxMeta"></span>
+        </figcaption>
+      </figure>
+      <button class="lightbox__arrow lightbox__arrow--next icon-btn" id="lightboxNext" type="button" aria-label="Foto berikutnya">
+        <svg aria-hidden="true"><use href="#i-next"/></svg>
+      </button>
+    </div>
+  </dialog>
+
+  <!-- Satu elemen audio untuk seluruh halaman, jadi lagu tidak mengulang saat di-scroll.
+       Sumber file diatur di CONFIG.song.file (script.js). -->
+  <audio id="audio" preload="metadata"></audio>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
